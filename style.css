@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bowlby One', cursive;  
+    color: rgb(171, 171, 226);
+
+}
+
+body{
+    /* background-color: rgb(73, 0, 73) ; */
+    /* background-image: url("https://cdn.wallpapersafari.com/96/60/ZBf0Im.jpg"); */
+    /* background-image: url('http://i.stack.imgur.com/kx8MT.gif'); */
+    background-image: url("https://i.gifer.com/4CND.gif");
+    /* background-image: url("https://i.gifer.com/Ozb.gif"); */
+
+
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+
+    padding:0;
+    margin:0;
+
+}
+
+#canvas{
+    background-image: linear-gradient(black , rgb(20, 20, 20), rgb(27, 27, 27));
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(245, 245, 245);
+}
+
+.high-score{
+    position: absolute;
+    top: 1.5rem;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-family: 'Games', sans-serif;
+    font-size: 30px;
+    color: #ABABE2;
+    color: white;
+
+}
+                                                
+ /* .reset{
+    cursor: pointer;
+    top: 90%;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    margin-left: auto;
+    right: 0;
+    font-family: 'Games', sans-serif;
+    font-size: 40px;
+    color: #ABABE2;
+    
+}  */
+
+.hsr{
+    top: 90%;
+    text-align: center;
+    /* width: 100%; */
+    position: absolute;
+    top: 90%;
+    left: 46.5%;
+    /* right: 0; */
+    font-family: 'Games', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+                                                
+.hsr:hover{
+    cursor: pointer;
+    color: rgb(219, 34, 34);
+}
