@@ -154,7 +154,7 @@ function play(){
 }
 
 
-let brickRow = 1;
+let brickRow = 3;
 let brickCol = 5;
 let brickWidth = 70;
 let brickHeight = 20;
@@ -217,7 +217,7 @@ function collision(){
 
 let gameLevelup = true; 
 function levelUp(){
-     if(score%5 == 0 && score != 0){
+     if(score%15 == 0 && score != 0){
          if(ball.y > canvas.height/2 ){
              generateBricks();
          }
@@ -232,7 +232,7 @@ function levelUp(){
              }
          }
 
-         if(score%5 != 0){
+         if(score%15 != 0){
              gameLevelup = true;
          }
      }
